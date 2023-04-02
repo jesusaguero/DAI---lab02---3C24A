@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CUARTO</title>
+    <meta charset="UTF-8">
+    <link href="assets/css/look.css" rel="stylesheet">
+    <link href="Imagenes/favicon.png" rel="icon">
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+
+    </style>
+</head>
+
+<section id="info" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Cuarto Ejercicio</h1>
+      <p>Realizado por: Jesus Agüero 3C24 A <span class="typed"></span></p>
+      <h2>Resultado</h2>
+    </div>
+  </section>
+  
+<body>
+
+    <script>
+        let nota1, nota2, nota3;
+        nota1 = prompt('Ingrese primer nota:');
+        nota1 = parseInt(nota1);
+        nota2 = prompt('Ingrese segunda nota:');
+        nota2 = parseInt(nota2);
+        nota3 = prompt('Ingrese tercer nota:');
+        nota3 = parseInt(nota3);
+        let suma;
+        suma = nota1 + nota2 + nota3;
+        let promedio;
+        promedio = suma / 3;
+        if (promedio >= 4) {
+            document.write('Regular');
+        } else {
+            document.write('Reprobado');
+        }
+    </script>
+
+</body>
+
+</html>
